@@ -1,4 +1,4 @@
-{% set version = "0.12.2" %}
+{% set version = "0.13.0" %}
 
 package:
   name: ycm-cmake-modules
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/robotology/ycm/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 42afdd754ba69a9d9b30279be3525bd9aefc8189ae5012701f37edf7be7e194d
+  sha256: 057d8c0174f97b857369578ca49be28944e05f3886a2756624e4483b02953a5f
 
 build:
   number: 0
@@ -26,7 +26,7 @@ test:
 about:
   home: https://github.com/robotology/ycm
   license: BSD-3-Clause
-  license_file: Copyright.txt
+  license_file: LICENSE
   summary: Extra CMake Modules for YARP and friends.
 
 extra:
