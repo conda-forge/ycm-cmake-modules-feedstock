@@ -1,11 +1,11 @@
-About ycm-cmake-modules
-=======================
+About ycm-cmake-modules-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ycm-cmake-modules-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robotology/ycm
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ycm-cmake-modules-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extra CMake Modules for YARP and friends.
 
@@ -198,7 +198,4 @@ Feedstock Maintainers
 =====================
 
 * [@traversaro](https://github.com/traversaro/)
-
-
-<!-- dummy commit to enable rerendering -->
 
