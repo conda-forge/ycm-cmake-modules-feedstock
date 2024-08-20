@@ -11,5 +11,5 @@ cmake --build . --config Release
 cmake --build . --config Release --target install
 # Some tests disabled due to https://github.com/robotology/ycm/issues/382
 if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "" ]]; then
-ctest --output-on-failure -C Release -E "YCMBootstrap-not-use-system|YCMBootstrap-disable-find|RunCMake.IncludeUrl"
+ctest --output-on-failure -C Release -E "YCMBootstrap|RunCMake.IncludeUrl"
 fi
