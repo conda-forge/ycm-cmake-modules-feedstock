@@ -1,4 +1,4 @@
-{% set version = "0.18.3" %}
+{% set version = "0.18.4" %}
 
 package:
   name: ycm-cmake-modules
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/robotology/ycm/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6bbdb06bab07b2fa9f20eab1dbb9c80937283472bed64f41d1fbb30ddeddf005
+  sha256: 2b47edee8c0864f9c3536ce846d262fe6cc1e5f67851617e4e0babcdc1b664b5
 
 build:
   number: 0
